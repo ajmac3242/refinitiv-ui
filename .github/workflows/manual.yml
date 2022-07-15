@@ -15,5 +15,6 @@ jobs:
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
           owner: ajmac3242
-          base: master
-          head: master
+          base: v6
+          head: v6
+          auto_approve: true
