@@ -32,7 +32,8 @@ jobs:
       with:
         target_sync_branch: v6
         # REQUIRED 'target_repo_token' exactly like this!
-        target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+        # target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+        target_repo_token: ${{ secrets.PERSONAL_TOKEN }}
         upstream_sync_branch: v6
         upstream_sync_repo: Refinitiv/refinitiv-ui
         upstream_repo_access_token: ${{ secrets.PERSONAL_TOKEN }}
