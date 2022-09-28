@@ -48,7 +48,7 @@ const init = async () => {
 
   if (cmd.v || cmd.version) {
     const packageJSONPath = path.join(__dirname, '../package.json');
-    await import(packageJSONPath).then((module: PackageJSONModule) => {
+    void import(packageJSONPath).then((module: PackageJSONModule) => {
       console.log('v' + module.default.version);
     });
     return;
@@ -118,7 +118,7 @@ const init = async () => {
   }
   
   console.log(`\nScaffolding project in ${chalk.cyan(root)} ...`);
-  await fsExtra.copy(path.join(__dirname, '../src/template'), root);
+  await fsExtra.copy(path.join(__dirname, '../template'), root);
 
   const newName = formatProjectName(path.basename(root));
   await renameAll(root, newName, TEMPLATE_NAME);
