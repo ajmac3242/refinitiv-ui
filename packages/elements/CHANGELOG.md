@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.9.1](https://github.com/Refinitiv/refinitiv-ui/compare/@refinitiv-ui/elements@6.9.0...@refinitiv-ui/elements@6.9.1) (2023-08-07)
+
+### Bug Fixes
+
+- **chart:** using single color on bar chart with single dataset ([#883](https://github.com/Refinitiv/refinitiv-ui/issues/883)) ([5ca2c9a](https://github.com/Refinitiv/refinitiv-ui/commit/5ca2c9a441de14e1559a4542a7112865d9d88cbe))
+- **notification:** `info`, `confirm`, `warn`, `error` duration should be optional ([#872](https://github.com/Refinitiv/refinitiv-ui/issues/872)) ([4b7e694](https://github.com/Refinitiv/refinitiv-ui/commit/4b7e694f5e9af88ec631bce8619f8da057fcbd52))
+
 # [6.9.0](https://github.com/Refinitiv/refinitiv-ui/compare/@refinitiv-ui/elements@6.8.11...@refinitiv-ui/elements@6.9.0) (2023-07-31)
 
 ### Bug Fixes
@@ -32,7 +39,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- flag border not set when setting through prop ([#815](https://github.com/Refinitiv/refinitiv-ui/issues/815)) ([7603b19](https://github.com/Refinitiv/refinitiv-ui/commit/7603b197dff9d48b79c9b0e3a826c95bb5f15bd7))
+- **flag:** border not set when setting through prop ([#815](https://github.com/Refinitiv/refinitiv-ui/issues/815)) ([7603b19](https://github.com/Refinitiv/refinitiv-ui/commit/7603b197dff9d48b79c9b0e3a826c95bb5f15bd7))
 - **interactive-chart:** export chart interface ([#809](https://github.com/Refinitiv/refinitiv-ui/issues/809)) ([d930d5d](https://github.com/Refinitiv/refinitiv-ui/commit/d930d5d0414508987f82ef864730e780f20ff538))
 
 ## [6.8.8](https://github.com/Refinitiv/refinitiv-ui/compare/@refinitiv-ui/elements@6.8.7...@refinitiv-ui/elements@6.8.8) (2023-06-30)
@@ -75,7 +82,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- remove `z-index` from collapse implementation ([#682](https://github.com/Refinitiv/refinitiv-ui/issues/682)) ([c3b6f76](https://github.com/Refinitiv/refinitiv-ui/commit/c3b6f76b178a0339de8f3bc153e1378398d68831))
+- **collapse:** remove `z-index` from collapse implementation ([#682](https://github.com/Refinitiv/refinitiv-ui/issues/682)) ([c3b6f76](https://github.com/Refinitiv/refinitiv-ui/commit/c3b6f76b178a0339de8f3bc153e1378398d68831))
 
 ## [6.8.1](https://github.com/Refinitiv/refinitiv-ui/compare/@refinitiv-ui/elements@6.8.0...@refinitiv-ui/elements@6.8.1) (2023-05-12)
 
@@ -135,7 +142,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- remove alias ([#553](https://github.com/Refinitiv/refinitiv-ui/issues/553)) ([32ce300](https://github.com/Refinitiv/refinitiv-ui/commit/32ce300e6ea0f730abd95f305b15cce406dab1c7))
+- remove deprecated element tag alias ([#553](https://github.com/Refinitiv/refinitiv-ui/issues/553)) ([32ce300](https://github.com/Refinitiv/refinitiv-ui/commit/32ce300e6ea0f730abd95f305b15cce406dab1c7))
 
 ## [6.5.3](https://github.com/Refinitiv/refinitiv-ui/compare/@refinitiv-ui/elements@6.5.2...@refinitiv-ui/elements@6.5.3) (2022-12-19)
 
